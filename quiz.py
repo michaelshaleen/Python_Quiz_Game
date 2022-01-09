@@ -2,16 +2,16 @@ name = input("Name: ")
 score = 0
 
 print(f"Welcome to my computer quiz!")
-
 play = input(f"Would you like to play a game {name}? ")
 
-tim = " tim is GREAT"
-print(tim.lower())
+
+# tim = " tim is GREAT"
+# print(tim.lower())
 
 if play.lower() != "yes":
     quit()
-
-print("Great! Let's play a game :) ")
+else:
+  print("Great! Let's play a game :) ")
 
 # Q1
 answer = input("What does CPU stand for? ").lower()
